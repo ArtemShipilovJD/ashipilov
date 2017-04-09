@@ -1,5 +1,5 @@
 /**
-* //package for calculator task
+* //package for calculator task.
 *
 * @author Artem Shipilov (shipilov.89521049213@mail.ru)
 * @version $Id$
