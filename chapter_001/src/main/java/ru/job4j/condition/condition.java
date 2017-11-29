@@ -1,4 +1,4 @@
-package ru.job4j.condition;
+ackage ru.job4j.condition;
 
 /**
  * @author shipilov (shipilov.89521049213@mail.ru)
@@ -12,20 +12,17 @@ public class DummyBot {
      * @return Ответ.
      */
     public String answer(String question) {
-        String hi1=new string("Привет, Бот.");
-        String hi2=new string("Привет, умник.");
-        String bay1=new string("Пока.");
-        String bay2=new string("До скорой встречи.");
-        String error=new string("Это ставит меня в тупик. Спросите другой вопрос.");
-        String x=new string("question");
+        String rs1="Это ставит меня в тупик. Спросите другой вопрос.";
 
-        if(x.equals(hi1)){ return "h2";
+        if("Привет, Бот.".equals(question)){
+			rs1="Привет, умник.";
+			
+        } else if("Пока.".equals(question)){ 
+		    rs1="До скорой встречи.";
+			
         }
-         else
-            if(x.equals(bay1)){ return "bay2";
-            }else{
-                return "error";
-			}
+                return rs1;
+	    }
         
-    }
+    
 }
