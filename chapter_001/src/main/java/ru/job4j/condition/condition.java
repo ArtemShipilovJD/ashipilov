@@ -1,4 +1,4 @@
-package ru.job4j.condition;
+п»їpackage ru.job4j.condition;
 
 /**
  * @author shipilov (shipilov.89521049213@mail.ru)
@@ -7,18 +7,18 @@ package ru.job4j.condition;
  */
 public class DummyBot {
     /**
-     * Отвечает на вопросы.
-     * @param question Вопрос от клиента.
-     * @return Ответ.
+     * РћС‚РІРµС‡Р°РµС‚ РЅР° РІРѕРїСЂРѕСЃС‹.
+     * @param question Р’РѕРїСЂРѕСЃ РѕС‚ РєР»РёРµРЅС‚Р°.
+     * @return РћС‚РІРµС‚.
      */
     public String answer(String question) {
-        String rs1="Это ставит меня в тупик. Спросите другой вопрос.";
+        String rs1="Р­С‚Рѕ СЃС‚Р°РІРёС‚ РјРµРЅСЏ РІ С‚СѓРїРёРє. РЎРїСЂРѕСЃРёС‚Рµ РґСЂСѓРіРѕР№ РІРѕРїСЂРѕСЃ.";
 
-        if("Привет, Бот.".equals(question)){
-			rs1="Привет, умник.";
+        if("РџСЂРёРІРµС‚, Р‘РѕС‚.".equals(question)){
+			rs1="РџСЂРёРІРµС‚, СѓРјРЅРёРє.";
 			
-        } else if("Пока.".equals(question)){ 
-		    rs1="До скорой встречи.";
+        } else if("РџРѕРєР°.".equals(question)){ 
+		    rs1="Р”Рѕ СЃРєРѕСЂРѕР№ РІСЃС‚СЂРµС‡Рё.";
 			
         }
                 return rs1;
