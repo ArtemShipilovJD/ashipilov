@@ -1,4 +1,4 @@
-ackage ru.job4j.condition;
+package ru.job4j.condition;
 
 /**
  * @author shipilov (shipilov.89521049213@mail.ru)
