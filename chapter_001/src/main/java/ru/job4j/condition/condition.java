@@ -15,16 +15,18 @@ public class DummyBot {
            String rs1="Это ставит меня в тупик. Спросите другой вопрос.";
 
            if("Привет, Бот.".equals(question)) {
-	    rs1="Привет, умник.";
+	     rs1="Привет, умник.";
 			
-         } else 
+           } else 
 
-               if("Пока.".equals(question)) { 
-	        rs1="До скорой встречи.";
+                if("Пока.".equals(question)) { 
+	          rs1="До скорой встречи.";
 			
-         }
-               return rs1;
-         }
+           }
+
+           return rs1;
+
+    }
         
     
 }
