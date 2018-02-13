@@ -24,6 +24,7 @@ public double area() {
     double bc = this.b.distanceTo(this.c);
     double p = this.period(ab, ac, bc);
     if (this.exist(ab, ac, bc)) {
+       double p==p/2;
        S=sqrt(p(p-double ab)(p-double bc)(p-double ac));
        rsl=S;
     }
