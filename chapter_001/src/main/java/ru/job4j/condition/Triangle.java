@@ -43,7 +43,7 @@ public double area() {
 }
 
 private boolean exist(double ab, double ac, double bc, double p) {
-    return (p > ab) && (p > ac) && (p > bc);
+    (p > ab) && (p > ac) && (p > bc);
      
     return false;
    }
