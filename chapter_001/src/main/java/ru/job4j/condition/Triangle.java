@@ -35,7 +35,7 @@ public double area() {
     double p = this.period(ab, ac, bc);
     if (this.exist(ab, ac, bc)) {
 		double S;
-		p == p/2;
+		p = p/2;
 		s=sqrt(p(p - ab)(p - bc)(p - ac));
 
     }
