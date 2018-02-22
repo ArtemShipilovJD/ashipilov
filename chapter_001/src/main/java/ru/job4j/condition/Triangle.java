@@ -11,28 +11,39 @@ public class Triangle {
        this.b = b;
        this.c = c;
     }
-
+/**
+* ћетод вычислени€ полупериметра по длинам сторон.
+*
+* ‘ормула.
+*
+* (ab + ac + bc) / 2
+*
+* @param ab рассто€ние между точками a b
+* @param ac рассто€ние между точками a c
+* @param bc рассто€ние между точками b c
+* @return ѕеримент.
+*/
 public double period(double ab, double ac, double bc) {
-    double p=(double ab+double ac+double bc)/2;
-    return double p;
+    return  (ab + ac + bc) / 2;
 }
 
 public double area() {
-    double rsl = S;
+    double rsl = sqrt(p(p - ab)(p - bc)(p - ac));
     double ab = this.a.distanceTo(this.b);
     double ac = this.a.distanceTo(this.c);
     double bc = this.b.distanceTo(this.c);
     double p = this.period(ab, ac, bc);
     if (this.exist(ab, ac, bc)) {
-       double p==p/2;
-       S=sqrt(p(p-double ab)(p-double bc)(p-double ac));
-       rsl=S;
+		double S;
+		p == p/2;
+		s=sqrt(p(p - ab)(p - bc)(p - ac));
+
     }
     return rsl;
 }
 
-private boolean exist(double ab, double ac, double bc) {
-     while(double ab>0, double ac>0, double bc>0){
+private boolean exist(double ab, double ac, double bc, double p) {
+    return (p > ab) && (p > ac) && (p > bc);
      
     return false;
    }
